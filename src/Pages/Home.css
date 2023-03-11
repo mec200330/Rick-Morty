@@ -1,0 +1,13 @@
+.container{
+    margin-top: -70px;
+    background-color: #97ce4c;
+    
+}
+.titlehome{
+    text-align: center;
+    font-family: fantasy;
+    font-size: 100px;
+}
+.imghome{
+    height: 700px;
+}
