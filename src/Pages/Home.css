@@ -1,7 +1,7 @@
 .container{
     margin-top: -70px;
-    background-color: #97ce4c;
-    
+   
+    width: auto;
 }
 .titlehome{
     text-align: center;
@@ -9,5 +9,6 @@
     font-size: 100px;
 }
 .imghome{
-    height: 700px;
+    width: auto;
+    height:auto;
 }

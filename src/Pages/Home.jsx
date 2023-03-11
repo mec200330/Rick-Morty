@@ -6,17 +6,17 @@ import './Home.css'
 
 
 const Home = () => {
-  return (
+  return (<ThemeProvider breakpoints={'sm'}>
 
-    <div className='container sm'>
-<ThemeProvider>
+    <div className='container row d-sm-block'>
+
         <h1 className='titlehome'>Rick & Morty</h1>
-      <img className='imghome' src={rickmor}></img>
+      <img className='imghome d-sm-block' src={rickmor}></img>
       <Link to="/personajes">
       <Button clase='ver' nombre='Buscar personaje'></Button>
       </Link> 
-      </ThemeProvider>
-    </div>
+     
+    </div> </ThemeProvider>
   )
 }
 
