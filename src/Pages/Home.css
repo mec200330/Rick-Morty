@@ -1,14 +1,23 @@
-.container{
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @media screen and(max-width: auto){
+    .container{display: flex;}
+} 
+     */
+
+/* .container{
     margin-top: -70px;
-   
+   background-color: greenyellow;
     width: auto;
-}
-.titlehome{
+} */
+/* .titlehome{
     text-align: center;
     font-family: fantasy;
     font-size: 100px;
-}
-.imghome{
+} */
+/* .imghome{
     width: auto;
     height:auto;
-}
+} */

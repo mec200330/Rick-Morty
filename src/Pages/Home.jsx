@@ -8,10 +8,10 @@ import './Home.css'
 const Home = () => {
   return (<ThemeProvider breakpoints={'sm'}>
 
-    <div className='container row d-sm-block'>
+    <div className='container  bg-lime-500 bg-contain'>
 
-        <h1 className='titlehome'>Rick & Morty</h1>
-      <img className='imghome d-sm-block' src={rickmor}></img>
+      <h1 className='titlehome flex text-center font-semibold text-9xl'>Rick & Morty</h1>
+      <img className='w-auto h-auto' src={rickmor}></img>
       <Link to="/personajes">
       <Button clase='ver' nombre='Buscar personaje'></Button>
       </Link> 
